@@ -3,8 +3,9 @@ body {
 	margin: 0;
 	background-color: lightblue;
 	font-family: "ubuntu", Arial, sans-serif;
-	overflow-x: hidden;
-	display: grid;
-	place-items: center;
+}
+span{
+    font-size: xx-large;
+    float: right;
 }
 
