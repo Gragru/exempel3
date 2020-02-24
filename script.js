@@ -4,7 +4,7 @@ for(x = 1; x < 32768; x++)
     text += x + " ";
 }
 
-var para = document.createElement("p");
+var para = document.createElement("h1");
 var node = document.createTextNode(text);
 para.appendChild(node);
 
