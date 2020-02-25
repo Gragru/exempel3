@@ -12,12 +12,12 @@ for(x = 1; x < 1000; x++)
 var para = document.createElement("h1");
 var nodetemp = document.createTextNode(texttemp);
 para.appendChild(nodetemp);
-// var linebreak = document.createElement('br');
-// para.appendChild(linebreak);
-// para.appendChild(linebreak);
-// para.appendChild(linebreak);
-// var node = document.createTextNode(text);
-// para.appendChild(node);
+var linebreak = document.createElement('br');
+para.appendChild(linebreak);
+para.appendChild(linebreak);
+para.appendChild(linebreak);
+var node = document.createTextNode(text);
+para.appendChild(node);
 
 var element = document.getElementById("content");
 //element.innerHTML = para.innerHTML;
