@@ -14,5 +14,5 @@ var node = document.createTextNode(text);
 para.appendChild(node);
 
 var element = document.getElementById("content");
-element.innerHTML = para;
+element.innerHTML = para.innerHTML;
 //element.appendChild(para);
