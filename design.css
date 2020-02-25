@@ -1,12 +1,12 @@
 body {
 	height: 100vh;
 	margin: 0;
-	background-color: lightblue;
+	background-color: rgb(248, 211, 48);
 	font-family: "ubuntu", Arial, sans-serif;
 }
 span{
     font-size: xx-large;
-    float: right;
+
 }
 
 
