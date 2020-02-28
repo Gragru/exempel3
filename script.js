@@ -8,11 +8,11 @@ for(x = 1; x < 1000; x++)
 {
     text += x + " ";
 }
- 
+// not
 var para = document.createElement("h1");
 var nodetemp = document.createTextNode(texttemp);
 para.appendChild(nodetemp);
-var linebreak = document.createElement('br');
+var linebreak = document.createElement("br");
 para.appendChild(linebreak);
 para.appendChild(linebreak);
 para.appendChild(linebreak);
