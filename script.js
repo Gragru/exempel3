@@ -14,8 +14,7 @@ var nodetemp = document.createTextNode(texttemp);
 para.appendChild(nodetemp);
 var linebreak = document.createElement("br");
 para.appendChild(linebreak);
-para.appendChild(linebreak);
-para.appendChild(linebreak);
+
 var node = document.createTextNode(text);
 para.appendChild(node);
 
