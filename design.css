@@ -1,7 +1,7 @@
 body {
 	height: 100vh;
 	margin: 0;
-	background-color: rgb(248, 211, 48);
+	background-color: rgb(226, 247, 242);
 	font-family: "ubuntu", Arial, sans-serif;
 }
 span{
@@ -11,17 +11,18 @@ span{
 
 
 .myButton {
-	background-color:#44c767;
-	border-radius:28px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+
+		background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		padding: 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	  
 }
 .myButton:hover {
 	background-color:#48941f;
